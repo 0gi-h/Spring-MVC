@@ -14,6 +14,7 @@ import java.util.Enumeration;
  * http://localhost:8080/request-param?username=hello&age=20
  *
  */
+//GET 쿼리 파라미터 방식과 POST HTML Form 방식 둘 다 서버 입장에서는 동일하기 떄문에 동일
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
 
